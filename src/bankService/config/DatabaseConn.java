@@ -1,4 +1,4 @@
-package bankService;
+package bankService.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ public class DatabaseConn {
     private static Connection instance;
 
     // Constructor privado para evitar instanciación
-    private DatabaseConn() { }
+    DatabaseConn() { }
 
     // Método para obtener la instancia única de conexión
     public static Connection getConnection() throws SQLException {

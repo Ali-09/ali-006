@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Login">
-  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.Login">
+  <grid id="27dc6" binding="panelLoading" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="733" height="505"/>
@@ -23,16 +23,16 @@
           <text value="Bank of Mayas"/>
         </properties>
       </component>
-      <component id="2c4a7" class="javax.swing.JLabel">
+      <component id="2c4a7" class="javax.swing.JLabel" binding="labelCard">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <foreground color="-1"/>
-          <text value="Label"/>
+          <text value="Number Card:"/>
         </properties>
       </component>
-      <component id="6f36c" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="6f36c" class="javax.swing.JTextField" binding="nCard">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -40,16 +40,16 @@
         </constraints>
         <properties/>
       </component>
-      <component id="b470c" class="javax.swing.JLabel">
+      <component id="b470c" class="javax.swing.JLabel" binding="labelNip">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <foreground color="-1"/>
-          <text value="Label"/>
+          <text value="NIP:"/>
         </properties>
       </component>
-      <component id="d7a78" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+      <component id="d7a78" class="javax.swing.JPasswordField" binding="nip">
         <constraints>
           <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
