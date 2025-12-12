@@ -45,8 +45,8 @@ public class Login {
                     Card card = get();
                     if (card.isInitialized()) {
                         // JOptionPane.showMessageDialog(null,  "Registro encontrado: " + card.getNumberCard());
-
-                        new Dashboard().showUI();
+                        parent.dispose();
+                        new Dashboard(card).showUI();
                     } else {
                         JOptionPane.showMessageDialog(null,
                                 "Tarjeta o NIP incorrectos");
